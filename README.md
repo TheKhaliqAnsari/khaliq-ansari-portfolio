@@ -1,72 +1,235 @@
-# Getting Started with Create React App
+# 🚀 Khaliq Ansari - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React and Vite, showcasing professional projects, skills, and experience. Features a beautiful hero section, interactive project carousel, and responsive design optimized for all devices.
 
-Check [Live](https://himanshusingla.vercel.app/).
+![Portfolio Preview](https://img.shields.io/badge/Status-Live-brightgreen)
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![Vite](https://img.shields.io/badge/Vite-5.0.10-purple)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+### 🎯 **Interactive Project Showcase**
+- **Custom Carousel**: Smooth sliding animations with manual navigation
+- **Category Filtering**: Filter projects by technology (React, Full Stack, HTML/CSS/JS)
+- **Responsive Design**: Adapts seamlessly from desktop to mobile
+- **Touch Gestures**: Swipe navigation on mobile devices
 
-### `npm start`
+### 🎨 **Modern UI/UX**
+- **Hero Section**: Personal introduction with animated statistics
+- **Skills Display**: Visual representation of technical skills
+- **Smooth Animations**: CSS transitions and keyframe animations
+- **Custom Cursor**: Interactive cursor effects for enhanced experience
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📱 **Mobile-First Responsiveness**
+- **Breakpoint Optimization**: Tailored layouts for 1100px+, 768px+, and 480px+
+- **Touch-Friendly**: Optimized touch targets and gesture support
+- **Performance**: Optimized animations and transitions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+### **Frontend Framework**
+- **React 18.2.0** - Modern React with hooks and functional components
+- **Vite 5.0.10** - Fast build tool and development server
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Styling & UI**
+- **CSS3** - Custom styling with modern features
+- **Responsive Design** - Mobile-first approach with media queries
+- **CSS Animations** - Smooth transitions and keyframe animations
 
-### `npm run build`
+### **Icons & Graphics**
+- **FontAwesome 6.4.0** - Professional icon library
+- **React Icons 4.10.1** - Additional icon sets
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **HTTP & APIs**
+- **Axios 1.6.3** - HTTP client for API calls
+- **LeetCode Stats API** - Integration for coding statistics
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Development Tools**
+- **ESLint** - Code quality and consistency
+- **React Testing Library** - Component testing utilities
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Getting Started
 
-### `npm run eject`
+### **Prerequisites**
+- Node.js (version 16 or higher)
+- npm or yarn package manager
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **Installation**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/TheKhaliqAnsari/khaliq-ansari-portfolio.git
+   cd portfolio
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Start development server**
+   ```bash
+   npm start
+   ```
 
-## Learn More
+4. **Open in browser**
+   Navigate to `http://localhost:5173`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **Build for Production**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run build
+```
 
-### Code Splitting
+### **Preview Production Build**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm run serve
+```
 
-### Analyzing the Bundle Size
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+portfolio/
+├── public/                 # Static assets
+│   ├── images/            # Project thumbnails and icons
+│   └── index.html         # HTML template
+├── src/
+│   ├── components/        # React components
+│   │   ├── Hero.jsx       # Hero section with stats
+│   │   ├── Navbar.jsx     # Navigation header
+│   │   ├── Skills.jsx     # Skills showcase
+│   │   ├── Projects.jsx   # Project carousel
+│   │   ├── SingleProject.jsx # Individual project card
+│   │   ├── Footer.jsx     # Footer section
+│   │   └── Cursor.jsx     # Custom cursor effects
+│   ├── utils/
+│   │   └── constants.js   # Project data and skills
+│   ├── App.jsx            # Main application component
+│   └── index.jsx          # Application entry point
+├── package.json           # Dependencies and scripts
+└── vite.config.js         # Vite configuration
+```
 
-### Making a Progressive Web App
+## 🎨 Key Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### **Hero Section (`Hero.jsx`)**
+- Personal introduction and statistics
+- Integration with LeetCode API for coding stats
+- Responsive layout with animated elements
 
-### Advanced Configuration
+### **Project Carousel (`Projects.jsx`)**
+- Custom carousel implementation (no external libraries)
+- Category filtering system
+- Touch gesture support for mobile
+- Smooth slide transitions with CSS animations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### **Skills Display (`Skills.jsx`)**
+- Visual representation of technical skills
+- Responsive grid layout
+- Icon-based skill presentation
 
-### Deployment
+## 🔧 Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### **Adding New Projects**
+Edit `src/utils/constants.js` to add new projects:
 
-### `npm run build` fails to minify
+```javascript
+{
+  name: "Project Name",
+  date: "Month Year",
+  category: "category",
+  thumbnail: "image.png",
+  desc: "Project description",
+  skills: ["Skill1", "Skill2"],
+  demo: "https://demo-link.com",
+  github: "https://github.com/username/repo"
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### **Modifying Skills**
+Update the skills array in `src/utils/constants.js`:
+
+```javascript
+{
+  name: "Skill Name",
+  image: "skill-icon.png"
+}
+```
+
+### **Styling Changes**
+- **Colors**: Modify CSS variables in component files
+- **Layouts**: Adjust breakpoints in CSS media queries
+- **Animations**: Customize transition durations and easing functions
+
+## 📱 Responsive Breakpoints
+
+- **Desktop**: ≥1024px (3 projects visible)
+- **Tablet**: ≥768px (2 projects visible)
+- **Mobile**: <768px (1 project visible)
+- **Small Mobile**: ≤480px (optimized spacing)
+
+## 🚀 Deployment
+
+### **Vercel (Recommended)**
+1. Connect your GitHub repository to Vercel
+2. Vercel will automatically detect the Vite configuration
+3. Deploy with zero configuration
+
+### **Netlify**
+1. Build the project: `npm run build`
+2. Upload the `dist` folder to Netlify
+3. Configure build settings if needed
+
+### **GitHub Pages**
+1. Add `homepage` field to `package.json`
+2. Install `gh-pages`: `npm install --save-dev gh-pages`
+3. Add deploy script and deploy
+
+## 🧪 Testing
+
+```bash
+# Run tests
+npm test
+
+# Run tests in watch mode
+npm test -- --watch
+```
+
+## 📊 Performance Features
+
+- **Lazy Loading**: Images and components load efficiently
+- **Optimized Animations**: CSS-based animations for smooth performance
+- **Responsive Images**: Optimized image sizes for different devices
+- **Minimal Dependencies**: Lightweight bundle size
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+
+**Khaliq Ansari**
+- GitHub: [@thekhaliqansari](https://github.com/thekhaliqansari)
+- Portfolio: [Live Demo](https://www.khaliqansari.live/)
+
+## 🙏 Acknowledgments
+
+- **LeetCode Stats API** for coding statistics
+- **FontAwesome** for beautiful icons
+- **React Community** for excellent documentation and tools
+
+---
+
+⭐ **Star this repository if you found it helpful!**
+
+🔗 **Connect with me on [LinkedIn](https://linkedin.com/in/your-profile) or [Twitter](https://twitter.com/your-handle)**
