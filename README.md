@@ -232,4 +232,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ⭐ **Star this repository if you found it helpful!**
 
-🔗 **Connect with me on [LinkedIn](https://linkedin.com/in/your-profile) or [Twitter](https://twitter.com/your-handle)**
+🔗 **Connect with me on [LinkedIn](https://linkedin.com/in/khaliqansari) or [Twitter](https://twitter.com/therichcoder)**
