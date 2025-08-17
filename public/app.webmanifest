@@ -1,0 +1,27 @@
+{
+  "name": "Khaliq Ansari - Full Stack Developer",
+  "short_name": "Khaliq",
+  "start_url": "./",
+  "orientation": "any",
+  "theme_color": "#0d43a0",
+  "scope": "./",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "khaliq.jpeg",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "khaliq.jpeg",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "khaliq.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purposes": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+#hero {
+  display: flex;
+  justify-content: space-between;
+  max-width: 85%;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+#hero-left {
+  max-width: 40%;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+#hero-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  #hero {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+
+  #hero-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  #hero-img {
+    border-radius: 50%;
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    max-width: 85%;
+  }
+
+  #hero-left {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #hero-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #hero-img {
+    border-radius: 50%;
+    margin: auto;
+    width: 50%;
+  }
+}
+
+#hero-before-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #606060;
+  /* margin-bottom: 10px; */
+  line-height: 28px;
+}
+
+#hero-text {
+  color: #8896aa;
+  line-height: 24px;
+}
+
+#hero-data {
+  background-color: #242424;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 30px auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.hero-data-single {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.hero-data-single:nth-child(2) {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.hero-data-heading {
+  display: inline;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero-data-text {
+  font-size: 12px;
+  margin: 0;
+}
+
+.check-resume-btn {
+  color: #242424;
+  border: 3px solid #242424;
+  background-color: white;
+  margin: 20px auto;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#hero-img {
+  border-radius: 50%;
+  margin: auto;
+  max-width: 60%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* filter: grayscale(100%); */
+}
+
+@media screen and (max-width: 768px) {
+  .hero-data-heading {
+    display: inline;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .hero-data-text {
+    font-size: 8px;
+    margin: 0;
+  }
+}

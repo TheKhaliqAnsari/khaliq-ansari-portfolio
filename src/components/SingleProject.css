@@ -1,0 +1,158 @@
+.project {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+  background-color: #f1f1fa;
+  border-radius: 20px;
+  padding: 15px; /* Reduced from 20px */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin: auto;
+  max-width: 100%; /* Ensure cards don't overflow container */
+}
+
+.project-img {
+  width: 50%;
+  margin: auto;
+  height: 150px; /* Reduced from 200px */
+  object-fit: contain;
+}
+
+.project h3 {
+  margin: 0;
+  line-height: 32px; /* Reduced from 40px */
+  font-size: 1.1em; /* Slightly smaller heading */
+}
+
+.project-date {
+  color: #3c3c3c;
+  line-height: 20px; /* Reduced from 24px */
+}
+
+.project p,
+li {
+  font-size: 13px; /* Reduced from 14px */
+  line-height: 20px; /* Reduced from 22.75px */
+}
+
+.project-skill {
+  font-family: "Nunito", sans-serif;
+  display: inline-block;
+  font-size: 11px; /* Reduced from 12px */
+  color: black;
+  background-color: white;
+  padding: 6px 8px; /* Reduced from 8px 10px */
+  margin: 3px; /* Reduced from 5px */
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em; /* Reduced from 1.5em */
+}
+
+.demo-link-btn,
+.project-link-btn {
+  margin: 15px auto; /* Reduced from 20px */
+  font-size: 13px; /* Reduced from 14px */
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 12px 24px; /* Reduced from 15px 30px */
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.demo-link-btn {
+  color: white;
+  border: 3px solid #242424;
+  background-color: #242424;
+}
+
+.demo-link-btn:hover {
+  color: #282c34;
+  background-color: transparent;
+}
+
+.project-link-btn,
+.more-projects-btn {
+  color: #242424;
+  border: 3px solid #242424;
+  background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    max-width: 90%; /* Increased from 80% for better mobile fit */
+    justify-self: center;
+    padding: 12px; /* Further reduced padding on mobile */
+  }
+
+  .project h3 {
+    margin: auto;
+    font-size: 1em; /* Smaller heading on mobile */
+    line-height: 28px;
+  }
+
+  .project p,
+  li {
+    text-align: left;
+    font-size: 12px; /* Smaller text on mobile */
+    line-height: 18px;
+  }
+  
+  .project-img {
+    height: 120px; /* Even smaller image on mobile */
+  }
+  
+  .project-skill {
+    font-size: 10px;
+    padding: 5px 7px;
+    margin: 2px;
+  }
+
+  .demo-link-btn,
+  .project-link-btn {
+    padding: 8px 16px; /* Smaller buttons on mobile */
+    font-size: 12px;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project {
+    padding: 10px;
+    max-width: 95%;
+  }
+  
+  .project-img {
+    height: 100px; /* Smallest image for very small screens */
+  }
+  
+  .project h3 {
+    font-size: 0.95em;
+    line-height: 24px;
+  }
+  
+  .project p,
+  li {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  
+  .project-skill {
+    font-size: 9px;
+    padding: 4px 6px;
+  }
+  
+  .demo-link-btn,
+  .project-link-btn {
+    padding: 6px 12px;
+    font-size: 11px;
+    margin: 8px auto;
+  }
+}
